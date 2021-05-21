@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LOGIN</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="error"></div>
+  <form id="form" method="GET">
+    <div>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required>
+    </div>
+    <button type="submit">로그인</button>
+  </form>
+  <script language='JavaScript'>
+  const name = document.getElementById('name')
+  const password = document.getElementById('password')
+  const form = document.getElementById('form')
+  const errerElement = document.getElementById('error')
+  if(parent.frames.length <= 0) { top.location.href="https://kim4445.github.io/KimBakYeonKoog/"; }
+  if (password.value === 3173) {
+    action('1.html')
+  }
+  </script>
+  <action("1.html")></action>
+
+
+</body>
+</html>
