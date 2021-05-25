@@ -1,0 +1,10 @@
+#container {
+    width:800px;  /* 컨테이너 너비 */
+    margin:0 auto;   /* 컨테이너 화면 중앙에 배치 */
+  }
+
+#main {
+  height: 1200px;
+  width: 800px;
+  margin: 0 auto;
+}
